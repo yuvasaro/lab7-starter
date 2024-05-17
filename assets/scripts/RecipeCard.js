@@ -160,7 +160,7 @@ class RecipeCard extends HTMLElement {
 		spans[1].textContent = data.numRatings;
 
 		let ratingImg = article.querySelector('.rating img');
-		ratingImg.src = "assets/images/icons/" + data.rating + "-star.svg";
+		ratingImg.src = "./assets/images/icons/" + data.rating + "-star.svg";
 		ratingImg.alt = data.rating + "-star";
 
 		let time = article.querySelector('time');
